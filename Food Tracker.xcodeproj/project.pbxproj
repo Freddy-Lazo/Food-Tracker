@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE74531320A9F837005CCA22 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74531220A9F837005CCA22 /* RatingControl.swift */; };
 		BEF20B7320A20992005FABE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF20B7220A20992005FABE3 /* AppDelegate.swift */; };
 		BEF20B7520A20992005FABE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF20B7420A20992005FABE3 /* ViewController.swift */; };
 		BEF20B7820A20992005FABE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF20B7620A20992005FABE3 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE74531220A9F837005CCA22 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		BEF20B6F20A20992005FABE3 /* Food Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF20B7220A20992005FABE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF20B7420A20992005FABE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				BEF20B7220A20992005FABE3 /* AppDelegate.swift */,
 				BEF20B7420A20992005FABE3 /* ViewController.swift */,
 				BEF20B7620A20992005FABE3 /* Main.storyboard */,
+				BE74531220A9F837005CCA22 /* RatingControl.swift */,
 				BEF20B7920A20992005FABE3 /* Assets.xcassets */,
 				BEF20B7B20A20992005FABE3 /* LaunchScreen.storyboard */,
 				BEF20B7E20A20992005FABE3 /* Info.plist */,
@@ -141,7 +144,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Freddy Lazo";
 				TargetAttributes = {
 					BEF20B6E20A20992005FABE3 = {
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF20B7520A20992005FABE3 /* ViewController.swift in Sources */,
+				BE74531320A9F837005CCA22 /* RatingControl.swift in Sources */,
 				BEF20B7320A20992005FABE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +260,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +319,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
