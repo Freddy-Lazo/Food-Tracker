@@ -31,7 +31,7 @@ class RatingControl: UIStackView {
     
     private func setupButtons(){
     
-        print("holi boli moli")
+        print("holi boli moli kausaaa")
         
         for _ in 0..<5 {
             
