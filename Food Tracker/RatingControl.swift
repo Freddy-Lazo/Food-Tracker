@@ -30,7 +30,9 @@ class RatingControl: UIStackView {
     //  MARK : Private Methods
     
     private func setupButtons(){
-     
+    
+        print("holi")
+        
         for _ in 0..<5 {
             
             // Create the button
